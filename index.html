@@ -86,129 +86,187 @@
   </head>
 
   <body>
-    <div style="width: 100%">
-      <div id="printViewer">
-        <p class="page" id="page1">
+    <style>
+        .page{
+            display:inline-block;
+            margin: 1rem auto;
+            max-width: min(2033px, 100%);
+
+            position: relative;
+            z-index: 0;
+            
+            width: 100%;
+            align-self: center;
+
+        }   
+        .dir{
+            position: relative;
+            z-index: 0;
+            width: calc(100vh * (8.5 /11));
+        }
+    </style>
+    <div style="align-self:center; margin: 0 auto; display: columns; align-self: center; margin: 0 auto;" align="center">
+      <main id="printViewer" style="align-items: center; flex-direction: column; display: -ms-flexbox;">
+        <div class="dir" dir="dir"><p class="page" id="page1">
           <img alt="svg page" id="page1s1" class="img" src="/applebobbing_files/1" />
           <img alt="svg page" id="page1s2" class="img" src="/applebobbing_files/2" />
           <img alt="svg page" id="page1s3" class="img" src="/applebobbing_files/3" />
           <img alt="svg page" id="page1s4" class="img" src="/applebobbing_files/4" />
-        </p>
-        <p class="page" id="page2">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page2">
           <img alt="svg page" id="page2s1" class="img" src="/applebobbing_files/1(1)" />
           <img alt="svg page" id="page2s2" class="img" src="/applebobbing_files/2(1)" />
           <img alt="svg page" id="page2s3" class="img" src="/applebobbing_files/3(1)" />
           <img alt="svg page" id="page2s4" class="img" src="/applebobbing_files/4(1)" />
-        </p>
-        <p class="page" id="page3">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page3">
           <img alt="svg page" id="page3s1" class="img" src="/applebobbing_files/1(2)" />
           <img alt="svg page" id="page3s2" class="img" src="/applebobbing_files/2(2)" />
           <img alt="svg page" id="page3s3" class="img" src="/applebobbing_files/3(2)" />
           <img alt="svg page" id="page3s4" class="img" src="/applebobbing_files/4(2)" />
-        </p>
-        <p class="page" id="page4">
+        </p></div>
+        <br/>
+        <div class="dir" dir="dir"><p class="page" id="page4">
           <img alt="svg page" id="page4s1" class="img" src="/applebobbing_files/1(3)" />
           <img alt="svg page" id="page4s2" class="img" src="/applebobbing_files/2(3)" />
           <img alt="svg page" id="page4s3" class="img" src="/applebobbing_files/3(3)" />
           <img alt="svg page" id="page4s4" class="img" src="/applebobbing_files/4(3)" />
-        </p>
-        <p class="page" id="page5">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page5">
           <img alt="svg page" id="page5s1" class="img" src="/applebobbing_files/1(4)" />
           <img alt="svg page" id="page5s2" class="img" src="/applebobbing_files/2(4)" />
           <img alt="svg page" id="page5s3" class="img" src="/applebobbing_files/3(4)" />
           <img alt="svg page" id="page5s4" class="img" src="/applebobbing_files/4(4)" />
-        </p>
-        <p class="page" id="page6">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page6">
           <img alt="svg page" id="page6s1" class="img" src="/applebobbing_files/1(5)" />
           <img alt="svg page" id="page6s2" class="img" src="/applebobbing_files/2(5)" />
           <img alt="svg page" id="page6s3" class="img" src="/applebobbing_files/3(5)" />
           <img alt="svg page" id="page6s4" class="img" src="/applebobbing_files/4(5)" />
-        </p>
-        <p class="page" id="page7">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page7">
           <img alt="svg page" id="page7s1" class="img" src="/applebobbing_files/1(6)" />
           <img alt="svg page" id="page7s2" class="img" src="/applebobbing_files/2(6)" />
           <img alt="svg page" id="page7s3" class="img" src="/applebobbing_files/3(6)" />
           <img alt="svg page" id="page7s4" class="img" src="/applebobbing_files/4(6)" />
-        </p>
-        <p class="page" id="page8">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page8">
           <img alt="svg page" id="page8s1" class="img" src="/applebobbing_files/1(7)" />
           <img alt="svg page" id="page8s2" class="img" src="/applebobbing_files/2(7)" />
           <img alt="svg page" id="page8s3" class="img" src="/applebobbing_files/3(7)" />
           <img alt="svg page" id="page8s4" class="img" src="/applebobbing_files/4(7)" />
-        </p>
-        <p class="page" id="page9">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page9">
           <img alt="svg page" id="page9s1" class="img" src="/applebobbing_files/1(8)" />
           <img alt="svg page" id="page9s2" class="img" src="/applebobbing_files/2(8)" />
           <img alt="svg page" id="page9s3" class="img" src="/applebobbing_files/3(8)" />
           <img alt="svg page" id="page9s4" class="img" src="/applebobbing_files/4(8)" />
-        </p>
-        <p class="page" id="page10">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page10">
           <img alt="svg page" id="page10s1" class="img" src="/applebobbing_files/1(9)" />
           <img alt="svg page" id="page10s2" class="img" src="/applebobbing_files/2(9)" />
           <img alt="svg page" id="page10s3" class="img" src="/applebobbing_files/3(9)" />
           <img alt="svg page" id="page10s4" class="img" src="/applebobbing_files/4(9)" />
-        </p>
-        <p class="page" id="page11">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page11">
           <img alt="svg page" id="page11s1" class="img" src="/applebobbing_files/1(10)" />
           <img alt="svg page" id="page11s2" class="img" src="/applebobbing_files/2(10)" />
           <img alt="svg page" id="page11s3" class="img" src="/applebobbing_files/3(10)" />
           <img alt="svg page" id="page11s4" class="img" src="/applebobbing_files/4(10)" />
-        </p>
-        <p class="page" id="page12">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page12">
           <img alt="svg page" id="page12s1" class="img" src="/applebobbing_files/1(11)" />
           <img alt="svg page" id="page12s2" class="img" src="/applebobbing_files/2(11)" />
           <img alt="svg page" id="page12s3" class="img" src="/applebobbing_files/3(11)" />
           <img alt="svg page" id="page12s4" class="img" src="/applebobbing_files/4(11)" />
-        </p>
-        <p class="page" id="page13">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page13">
           <img alt="svg page" id="page13s1" class="img" src="/applebobbing_files/1(12)" />
           <img alt="svg page" id="page13s2" class="img" src="/applebobbing_files/2(12)" />
           <img alt="svg page" id="page13s3" class="img" src="/applebobbing_files/3(12)" />
           <img alt="svg page" id="page13s4" class="img" src="/applebobbing_files/4(12)" />
-        </p>
-        <p class="page" id="page14">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page14">
           <img alt="svg page" id="page14s1" class="img" src="/applebobbing_files/1(13)" />
           <img alt="svg page" id="page14s2" class="img" src="/applebobbing_files/2(13)" />
           <img alt="svg page" id="page14s3" class="img" src="/applebobbing_files/3(13)" />
           <img alt="svg page" id="page14s4" class="img" src="/applebobbing_files/4(13)" />
-        </p>
-        <p class="page" id="page15">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page15">
           <img alt="svg page" id="page15s1" class="img" src="/applebobbing_files/1(14)" />
           <img alt="svg page" id="page15s2" class="img" src="/applebobbing_files/2(14)" />
           <img alt="svg page" id="page15s3" class="img" src="/applebobbing_files/3(14)" />
           <img alt="svg page" id="page15s4" class="img" src="/applebobbing_files/4(14)" />
-        </p>
-        <p class="page" id="page16">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page16">
           <img alt="svg page" id="page16s1" class="img" src="/applebobbing_files/1(15)" />
           <img alt="svg page" id="page16s2" class="img" src="/applebobbing_files/2(15)" />
           <img alt="svg page" id="page16s3" class="img" src="/applebobbing_files/3(15)" />
           <img alt="svg page" id="page16s4" class="img" src="/applebobbing_files/4(15)" />
-        </p>
-        <p class="page" id="page17">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page17">
           <img alt="svg page" id="page17s1" class="img" src="/applebobbing_files/1(16)" />
           <img alt="svg page" id="page17s2" class="img" src="/applebobbing_files/2(16)" />
           <img alt="svg page" id="page17s3" class="img" src="/applebobbing_files/3(16)" />
           <img alt="svg page" id="page17s4" class="img" src="/applebobbing_files/4(16)" />
-        </p>
-        <p class="page" id="page18">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page18">
           <img alt="svg page" id="page18s1" class="img" src="/applebobbing_files/1(17)" />
           <img alt="svg page" id="page18s2" class="img" src="/applebobbing_files/2(17)" />
           <img alt="svg page" id="page18s3" class="img" src="/applebobbing_files/3(17)" />
           <img alt="svg page" id="page18s4" class="img" src="/applebobbing_files/4(17)" />
-        </p>
-        <p class="page" id="page19">
+        </p></div>
+        <br/><br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page19">
           <img alt="svg page" id="page19s1" class="img" src="/applebobbing_files/1(18)" />
           <img alt="svg page" id="page19s2" class="img" src="/applebobbing_files/2(18)" />
           <img alt="svg page" id="page19s3" class="img" src="/applebobbing_files/3(18)" />
           <img alt="svg page" id="page19s4" class="img" src="/applebobbing_files/4(18)" />
-        </p>
-        <p class="page" id="page20">
+        </p></div>
+        <br/>
+
+        <div class="dir" dir="dir"><p class="page" id="page20">
           <img alt="svg page" id="page20s1" class="img" src="/applebobbing_files/1(19)" />
           <img alt="svg page" id="page20s2" class="img" src="/applebobbing_files/2(19)" />
           <img alt="svg page" id="page20s3" class="img" src="/applebobbing_files/3(19)" />
           <img alt="svg page" id="page20s4" class="img" src="/applebobbing_files/4(19)" />
-        </p>
-      </div>
+        </p></div>
+        <br/>
+
+    </main>
     </div>
 
     <!-- 
